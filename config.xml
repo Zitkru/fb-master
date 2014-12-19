@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.technit.fbconnect"
+        version   = "1.0.0">
+    <name>FB cnt</name>
+
+    <description>
+        Facebook Connect
+    </description>
+
+    <author href="http://technit.com.mx" email="ventas@technit.com.mx">
+        Technit Solutions SA de CV
+    </author>
+	<access origin="*" />
+	<gap:plugin name="org.apache.cordova.splashscreen" version="0.3.3" />
+	<preference name="orientation"      value="portrait" />
+    <preference name="target-device"    value="handset" />
+    <!--preference name="Fullscreen"       value="true" /-->
+    <preference name="webviewbounce"    value="false" />
+	<preference name="SplashScreenDelay" value="5000" />
+	<preference name="AutoHideSplashScreen" value="false" />
+	<preference name="auto-hide-splash-screen" value="false" />
+	<preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="phonegap-version" value="3.6.3" />
+
+	<gap:plugin name="com.phonegap.plugins.facebookconnect" version="0.9.0">
+        <param name="APP_ID" value="518362571642337" />
+        <param name="APP_NAME" value="Tiburones Rojos" />
+    </gap:plugin>
+
+    <!-- content src="http://www.w3.org/2010/05/video/mediaevents.html" / -->
+</widget>
